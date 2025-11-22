@@ -6,8 +6,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import LabelEncoder
 import numpy as np
 
-MATCHES_CSV = r"C:\Users\Ranjeet\Desktop\AIML\IPL_Matches_2008_2025.csv"
-BALLS_CSV   = r"C:\Users\Ranjeet\Desktop\AIML\IPL_Ball_by_Ball_2008_2025.csv"
+MATCHES_CSV = "data/IPL_Matches_2008_2025.csv"
+BALLS_CSV   = "data/IPL_Ball_by_Ball_2008_2025.csv"
 
 st.set_page_config(page_title="CricketLive Analytics", layout="wide")
 
