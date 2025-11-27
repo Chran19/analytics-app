@@ -7,3 +7,4 @@ xgboost
 matplotlib
 seaborn
 requests
+beautifulsoup4
